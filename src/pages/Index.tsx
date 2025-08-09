@@ -343,59 +343,7 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            {/* Премиум пакет */}
-            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow">
-              <CardHeader className="text-center pb-4">
-                <Badge className="w-fit mx-auto mb-3 bg-amber-600 text-white">
-                  Премиум
-                </Badge>
-                <CardTitle className="font-montserrat text-2xl text-dark-forest">
-                  Лесное хозяйство
-                </CardTitle>
-                <CardDescription className="font-open-sans">
-                  Для серьёзных инвесторов
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="pt-0">
-                <div className="text-center mb-6">
-                  <div className="text-4xl font-bold text-forest-green mb-2">20 га</div>
-                  <div className="text-sm text-gray-500">12,000 деревьев</div>
-                </div>
-                
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center text-sm">
-                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">12,000 саженцев разных пород</span>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Ценные породы деревьев</span>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Полный уход 10 лет</span>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Управление хозяйством</span>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">VIP поддержка</span>
-                  </div>
-                </div>
 
-                <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
-                  <div className="text-xl font-bold text-dark-forest">₽240,000,000</div>
-                  <div className="text-sm text-gray-500">+1100% прибыль</div>
-                </div>
-
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
-                  Купить за ₽20,000,000
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
