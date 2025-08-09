@@ -193,13 +193,13 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 25 лет:</div>
-                  <div className="text-xl font-bold text-dark-forest">₽2,500,000</div>
-                  <div className="text-sm text-gray-500">+150% прибыль</div>
+                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-xl font-bold text-dark-forest">₽12,000,000</div>
+                  <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
                 <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
-                  Купить за ₽850,000
+                  Купить за ₽1,000,000
                 </Button>
               </CardContent>
             </Card>
@@ -248,13 +248,13 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 25 лет:</div>
-                  <div className="text-xl font-bold text-dark-forest">₽14,500,000</div>
-                  <div className="text-sm text-gray-500">+190% прибыль</div>
+                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-xl font-bold text-dark-forest">₽60,000,000</div>
+                  <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
                 <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
-                  Купить за ₽3,900,000
+                  Купить за ₽5,000,000
                 </Button>
               </CardContent>
             </Card>
@@ -302,13 +302,13 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 25 лет:</div>
-                  <div className="text-xl font-bold text-dark-forest">₽75,000,000</div>
-                  <div className="text-sm text-gray-500">+250% прибыль</div>
+                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-xl font-bold text-dark-forest">₽240,000,000</div>
+                  <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
                 <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
-                  Купить за ₽15,800,000
+                  Купить за ₽20,000,000
                 </Button>
               </CardContent>
             </Card>
