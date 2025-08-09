@@ -225,7 +225,7 @@ const Index = () => {
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest">₽12,000,000</div>
-                  <div className="text-sm text-gray-500">+1100% прибыль</div>
+                  <div className="text-lg font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">+1100% прибыль</div>
                 </div>
 
                 <div className="mt-auto">
@@ -282,7 +282,7 @@ const Index = () => {
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest">₽60,000,000</div>
-                  <div className="text-sm text-gray-500">+1100% прибыль</div>
+                  <div className="text-lg font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">+1100% прибыль</div>
                 </div>
 
                 <div className="mt-auto">
@@ -338,7 +338,7 @@ const Index = () => {
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest">₽120,000,000</div>
-                  <div className="text-sm text-gray-500">+1100% прибыль</div>
+                  <div className="text-lg font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full inline-block">+1100% прибыль</div>
                 </div>
 
                 <div className="mt-auto">
