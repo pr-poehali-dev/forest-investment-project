@@ -11,7 +11,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/img/bec43877-7547-4023-a70b-7bfa54bbb4b3.jpg')`,
+            backgroundImage: `url('/img/ce2789fc-443f-48a7-bd1d-dc39b3e4385b.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
