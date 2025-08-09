@@ -2,8 +2,10 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
+import { useState } from 'react';
 
 const Index = () => {
+  const [showLocation, setShowLocation] = useState(false);
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -45,18 +47,32 @@ const Index = () => {
             стать владельцем собственного леса и получить стабильный доход в долгосрочной перспективе.
           </p>
           
-          <div className="bg-forest-green/5 rounded-2xl p-6 max-w-2xl mx-auto border border-forest-green/20">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <Icon name="MapPin" size={24} className="text-forest-green" />
-              <h3 className="font-montserrat text-lg font-semibold text-dark-forest">
-                Локация проекта
-              </h3>
-            </div>
-            <p className="font-open-sans text-gray-700 text-center">
-              <strong>Урал, Пермский край</strong> — земли с благоприятными условиями для лесной отрасли. 
-              Богатые почвы, оптимальный климат и многовековые традиции лесоводства создают 
-              идеальные условия для выращивания качественной древесины.
-            </p>
+          <div className="max-w-2xl mx-auto">
+            <Button 
+              onClick={() => setShowLocation(!showLocation)}
+              variant="outline" 
+              className="mx-auto flex items-center gap-2 border-forest-green text-forest-green hover:bg-forest-green hover:text-white"
+            >
+              <Icon name="MapPin" size={20} />
+              {showLocation ? 'Скрыть локацию' : 'Показать локацию проекта'}
+              <Icon name={showLocation ? "ChevronUp" : "ChevronDown"} size={16} />
+            </Button>
+            
+            {showLocation && (
+              <div className="bg-forest-green/5 rounded-2xl p-6 mt-4 border border-forest-green/20 animate-fade-in">
+                <div className="flex items-center justify-center gap-3 mb-3">
+                  <Icon name="MapPin" size={24} className="text-forest-green" />
+                  <h3 className="font-montserrat text-lg font-semibold text-dark-forest">
+                    Локация проекта
+                  </h3>
+                </div>
+                <p className="font-open-sans text-gray-700 text-center">
+                  <strong>Урал, Пермский край</strong> — земли с благоприятными условиями для лесной отрасли. 
+                  Богатые почвы, оптимальный климат и многовековые традиции лесоводства создают 
+                  идеальные условия для выращивания качественной древесины.
+                </p>
+              </div>
+            )}
           </div>
         </div>
 
