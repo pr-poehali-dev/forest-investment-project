@@ -183,7 +183,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Базовый пакет */}
             <Card className="relative overflow-hidden hover:shadow-xl transition-shadow">
               <CardHeader className="text-center pb-4">
@@ -285,6 +285,60 @@ const Index = () => {
 
                 <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
                   Купить за ₽5,000,000
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Расширенный пакет */}
+            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow">
+              <CardHeader className="text-center pb-4">
+                <Badge className="w-fit mx-auto mb-3 bg-blue-600 text-white">
+                  Оптимальный
+                </Badge>
+                <CardTitle className="font-montserrat text-2xl text-dark-forest">
+                  Расширенный лес
+                </CardTitle>
+                <CardDescription className="font-open-sans">
+                  Увеличенный участок для роста
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <div className="text-center mb-6">
+                  <div className="text-4xl font-bold text-forest-green mb-2">10 га</div>
+                  <div className="text-sm text-gray-500">6,000 деревьев</div>
+                </div>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">6,000 саженцев смешанных пород</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Хвойные и лиственные породы</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Полный уход 7 лет</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Расширенное страхование</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Регулярные отчёты</span>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-4 mb-6">
+                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-xl font-bold text-dark-forest">₽120,000,000</div>
+                  <div className="text-sm text-gray-500">+1100% прибыль</div>
+                </div>
+
+                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
+                  Купить за ₽10,000,000
                 </Button>
               </CardContent>
             </Card>
