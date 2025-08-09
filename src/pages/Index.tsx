@@ -228,7 +228,7 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
+                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
                   Купить за ₽1,000,000
                 </Button>
               </CardContent>
@@ -283,7 +283,7 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
+                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
                   Купить за ₽5,000,000
                 </Button>
               </CardContent>
@@ -337,7 +337,7 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
+                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
                   Купить за ₽10,000,000
                 </Button>
               </CardContent>
@@ -391,7 +391,7 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat">
+                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
                   Купить за ₽20,000,000
                 </Button>
               </CardContent>
