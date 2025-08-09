@@ -223,7 +223,7 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-base text-gray-800 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest mb-2">₽12,000,000</div>
                   <div className="text-lg font-bold text-green-600 bg-white px-3 py-1 rounded-full inline-block shadow-sm border border-green-200">+1100% прибыль</div>
                 </div>
@@ -280,7 +280,7 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-base text-gray-800 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest mb-2">₽60,000,000</div>
                   <div className="text-lg font-bold text-green-600 bg-white px-3 py-1 rounded-full inline-block shadow-sm border border-green-200">+1100% прибыль</div>
                 </div>
@@ -336,7 +336,7 @@ const Index = () => {
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
-                  <div className="text-sm text-gray-600 mb-2">Прогноз через 20-25 лет:</div>
+                  <div className="text-base text-gray-800 mb-2">Прогноз через 20-25 лет:</div>
                   <div className="text-xl font-bold text-dark-forest mb-2">₽120,000,000</div>
                   <div className="text-lg font-bold text-green-600 bg-white px-3 py-1 rounded-full inline-block shadow-sm border border-green-200">+1100% прибыль</div>
                 </div>
