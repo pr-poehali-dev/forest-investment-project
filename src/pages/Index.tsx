@@ -40,10 +40,24 @@ const Index = () => {
           <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-dark-forest mb-6">
             О проекте
           </h2>
-          <p className="font-open-sans text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="font-open-sans text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             Мы занимаемся высадкой деревьев на земле и её продажей. Это уникальная возможность 
             стать владельцем собственного леса и получить стабильный доход в долгосрочной перспективе.
           </p>
+          
+          <div className="bg-forest-green/5 rounded-2xl p-6 max-w-2xl mx-auto border border-forest-green/20">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <Icon name="MapPin" size={24} className="text-forest-green" />
+              <h3 className="font-montserrat text-lg font-semibold text-dark-forest">
+                Локация проекта
+              </h3>
+            </div>
+            <p className="font-open-sans text-gray-700 text-center">
+              <strong>Урал, Пермский край</strong> — земли с благоприятными условиями для лесной отрасли. 
+              Богатые почвы, оптимальный климат и многовековые традиции лесоводства создают 
+              идеальные условия для выращивания качественной древесины.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
