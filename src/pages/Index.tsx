@@ -183,9 +183,9 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Базовый пакет */}
-            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow">
+            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow flex flex-col h-full">
               <CardHeader className="text-center pb-4">
                 <Badge className="w-fit mx-auto mb-3 bg-forest-green text-white">
                   Популярный
@@ -197,7 +197,7 @@ const Index = () => {
                   Идеально для начинающих инвесторов
                 </CardDescription>
               </CardHeader>
-              <CardContent className="pt-0">
+              <CardContent className="pt-0 flex-1 flex flex-col">
                 <div className="text-center mb-6">
                   <div className="text-4xl font-bold text-forest-green mb-2">1 га</div>
                   <div className="text-sm text-gray-500">600 деревьев</div>
@@ -228,9 +228,11 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
-                  Купить за ₽1,000,000
-                </Button>
+                <div className="mt-auto">
+                  <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
+                    Купить за ₽1,000,000
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
@@ -248,7 +250,7 @@ const Index = () => {
                   Оптимальный выбор для семьи
                 </CardDescription>
               </CardHeader>
-              <CardContent className="pt-0">
+              <CardContent className="pt-0 flex-1 flex flex-col">
                 <div className="text-center mb-6">
                   <div className="text-4xl font-bold text-forest-green mb-2">5 га</div>
                   <div className="text-sm text-gray-500">3,000 деревьев</div>
@@ -283,14 +285,16 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
-                  Купить за ₽5,000,000
-                </Button>
+                <div className="mt-auto">
+                  <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
+                    Купить за ₽5,000,000
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
             {/* Расширенный пакет */}
-            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow">
+            <Card className="relative overflow-hidden hover:shadow-xl transition-shadow flex flex-col h-full">
               <CardHeader className="text-center pb-4">
                 <Badge className="w-fit mx-auto mb-3 bg-blue-600 text-white">
                   Оптимальный
@@ -302,7 +306,7 @@ const Index = () => {
                   Увеличенный участок для роста
                 </CardDescription>
               </CardHeader>
-              <CardContent className="pt-0">
+              <CardContent className="pt-0 flex-1 flex flex-col">
                 <div className="text-center mb-6">
                   <div className="text-4xl font-bold text-forest-green mb-2">10 га</div>
                   <div className="text-sm text-gray-500">6,000 деревьев</div>
@@ -337,9 +341,11 @@ const Index = () => {
                   <div className="text-sm text-gray-500">+1100% прибыль</div>
                 </div>
 
-                <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
-                  Купить за ₽10,000,000
-                </Button>
+                <div className="mt-auto">
+                  <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
+                    Купить за ₽10,000,000
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
