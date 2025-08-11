@@ -249,7 +249,7 @@ const Index = () => {
               <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-forest-green to-dark-forest"></div>
               <CardHeader className="text-center pb-4">
                 <Badge className="w-fit mx-auto mb-3 bg-forest-brown text-white">
-                  Рекомендуем -5%
+                  Рекомендуем
                 </Badge>
                 <CardTitle className="font-montserrat text-2xl text-dark-forest">
                   Семейный лес
@@ -309,7 +309,7 @@ const Index = () => {
             <Card className="relative overflow-hidden hover:shadow-xl transition-shadow flex flex-col h-full">
               <CardHeader className="text-center pb-4">
                 <Badge className="w-fit mx-auto mb-3 bg-blue-600 text-white">
-                  Оптимальный -10%
+                  Оптимальный
                 </Badge>
                 <CardTitle className="font-montserrat text-2xl text-dark-forest">
                   Расширенный лес
