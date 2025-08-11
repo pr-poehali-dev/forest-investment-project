@@ -22,7 +22,7 @@ const Index = () => {
           <h1 className="font-montserrat text-6xl md:text-7xl font-bold mb-6 leading-tight">
             Свой лес
           </h1>
-          <p className="font-open-sans text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+          <p className="font-open-sans text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-semibold">
             Инвестиция в будущее свое и своих детей. Станьте собственником леса от 1 гектара
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
