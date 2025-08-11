@@ -267,7 +267,7 @@ const Index = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">3000 саженцев деревьев</span>
+                    <span className="font-open-sans">600 саженцев деревьев</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
@@ -291,7 +291,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Percent" size={16} className="text-orange-500 mr-2 flex-shrink-0" />
-                    <span className="line-through text-gray-400 ml-2 font-black text-lg">Скидка 5% <span className="line-through text-gray-400 ml-2">₽5,000,000</span></span>
+                    <span className="font-open-sans text-orange-500 font-semibold">Скидка 5% <span className="line-through text-gray-400 ml-2">₽5,000,000</span></span>
                   </div>
                 </div>
 
@@ -331,11 +331,11 @@ const Index = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">6000 саженцев деревьев</span>
+                    <span className="font-open-sans">600 саженцев деревьев</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Уход первые 3 года</span>
+                    <span className="font-open-sans">Оформление документов</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
