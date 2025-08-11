@@ -355,7 +355,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Percent" size={16} className="text-orange-500 mr-2 flex-shrink-0" />
-                    <span className="font-open-sans text-orange-500 font-semibold">Скидка 10%</span>
+                    <span className="font-open-sans text-orange-500 font-semibold">Скидка 10% <span className="line-through text-black text-lg font-bold ml-2">₽10,000,000</span></span>
                   </div>
                 </div>
 
