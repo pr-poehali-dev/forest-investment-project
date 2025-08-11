@@ -387,6 +387,14 @@ const Index = () => {
             Лес — это инвестиция, которая растёт вместе с деревьями.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button 
+              size="lg" 
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg font-montserrat"
+              onClick={() => window.open('https://wa.me/89024777752', '_blank')}
+            >
+              <Icon name="MessageCircle" size={20} className="mr-2" />
+              WhatsApp
+            </Button>
             <Button size="lg" className="bg-forest-green hover:bg-green-600 text-white px-8 py-4 text-lg font-montserrat">
               <Icon name="Phone" size={20} className="mr-2" />
               Получить консультацию
