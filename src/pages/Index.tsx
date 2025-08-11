@@ -224,6 +224,10 @@ const Index = () => {
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
                     <span className="font-open-sans">Фото видеоотчёт</span>
                   </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Возможен кредит</span>
+                  </div>
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
@@ -281,6 +285,10 @@ const Index = () => {
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
                     <span className="font-open-sans">Фото видеоотчёт</span>
                   </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Возможен кредит</span>
+                  </div>
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
@@ -336,6 +344,10 @@ const Index = () => {
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
                     <span className="font-open-sans">Фото видеоотчёт</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Возможен кредит</span>
                   </div>
                 </div>
 
