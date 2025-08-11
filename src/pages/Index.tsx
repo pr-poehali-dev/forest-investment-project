@@ -353,6 +353,10 @@ const Index = () => {
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
                     <span className="font-open-sans">Возможен кредит</span>
                   </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Percent" size={16} className="text-orange-500 mr-2 flex-shrink-0" />
+                    <span className="font-open-sans text-orange-500 font-semibold">Скидка 10%</span>
+                  </div>
                 </div>
 
                 <div className="bg-gradient-to-br from-green-50 to-forest-green/10 rounded-lg p-4 mb-6 border-2 border-green-200">
