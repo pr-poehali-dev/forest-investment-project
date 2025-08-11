@@ -206,7 +206,7 @@ const Index = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">600 саженцев хвойных пород</span>
+                    <span className="font-open-sans">600 саженцев деревьев</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
@@ -214,11 +214,15 @@ const Index = () => {
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Уход первые 3 года</span>
+                    <span className="font-open-sans">Уход первые 2 года</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Страхование от пожаров</span>
+                    <span className="font-open-sans">Страхование</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
+                    <span className="font-open-sans">Фото видеоотчёт</span>
                   </div>
                 </div>
 
@@ -259,23 +263,23 @@ const Index = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">3,000 саженцев хвойных пород</span>
+                    <span className="font-open-sans">600 саженцев деревьев</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Смешанные породы деревьев</span>
+                    <span className="font-open-sans">Оформление документов</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Уход первые 5 лет</span>
+                    <span className="font-open-sans">Уход первые 2 года</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Полное страхование</span>
+                    <span className="font-open-sans">Страхование</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Консультации специалиста</span>
+                    <span className="font-open-sans">Фото видеоотчёт</span>
                   </div>
                 </div>
 
@@ -315,23 +319,23 @@ const Index = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">6,000 саженцев смешанных пород</span>
+                    <span className="font-open-sans">600 саженцев деревьев</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Хвойные и лиственные породы</span>
+                    <span className="font-open-sans">Оформление документов</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Полный уход 7 лет</span>
+                    <span className="font-open-sans">Уход первые 2 года</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Расширенное страхование</span>
+                    <span className="font-open-sans">Страхование</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <Icon name="Check" size={16} className="text-forest-green mr-2 flex-shrink-0" />
-                    <span className="font-open-sans">Регулярные отчёты</span>
+                    <span className="font-open-sans">Фото видеоотчёт</span>
                   </div>
                 </div>
 
