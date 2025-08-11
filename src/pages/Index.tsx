@@ -367,7 +367,7 @@ const Index = () => {
 
                 <div className="mt-auto">
                   <Button className="w-full bg-forest-green hover:bg-dark-forest text-white font-montserrat py-4 text-lg">
-                    Купить за ₽10,000,000
+                    Купить за ₽9,000,000
                   </Button>
                 </div>
               </CardContent>
