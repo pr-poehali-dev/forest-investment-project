@@ -66,7 +66,7 @@ const Index = () => {
                     Локация проекта
                   </h3>
                 </div>
-                <p className="font-open-sans text-gray-700 text-center">
+                <p className="font-open-sans text-gray-700 text-center text-lg font-semibold">
                   <strong>Урал, Пермский край</strong> — земли с благоприятными условиями для лесной отрасли. 
                   Богатые почвы, оптимальный климат и многовековые традиции лесоводства создают 
                   идеальные условия для выращивания качественной древесины.
@@ -382,7 +382,7 @@ const Index = () => {
           <h2 className="font-montserrat text-4xl md:text-5xl font-bold mb-6">
             Начните инвестировать в лес уже сегодня
           </h2>
-          <p className="font-open-sans text-xl mb-8 text-gray-200">
+          <p className="font-open-sans mb-8 text-gray-200 text-3xl">
             Создайте наследство для своих детей и внуков. 
             Лес — это инвестиция, которая растёт вместе с деревьями.
           </p>
